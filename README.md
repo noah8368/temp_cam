@@ -20,3 +20,8 @@ choco install cmake --installargs 'ADD_CMAKE_TO_PATH=System'
 
 Use the [CMake extension for VS Code](https://code.visualstudio.com/docs/cpp/cmake-linux) to build the project. The exectable
 `temp_cam.exe` will be created at `build\Debug`, relative to the project root.
+
+**Choose an x86 compiler when selecting the active kit in the VS Code Cmake
+extension.** Not doing this will result in a linking error due to conflicts
+between shared libraries designed for 32-bit systems and a 64-bit target
+executable.
