@@ -1,1 +1,2 @@
-SDK
+# Ignore compiled binaries.
+build
