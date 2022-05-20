@@ -1,2 +1,5 @@
 # Ignore compiled binaries.
 build
+
+# Ignore VS Code files.
+.vscode
